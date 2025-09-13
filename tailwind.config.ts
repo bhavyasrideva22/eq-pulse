@@ -22,10 +22,13 @@ export default {
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
+          soft: "hsl(var(--primary-soft))",
+          glow: "hsl(var(--primary-glow))",
         },
         secondary: {
           DEFAULT: "hsl(var(--secondary))",
           foreground: "hsl(var(--secondary-foreground))",
+          soft: "hsl(var(--secondary-soft))",
         },
         destructive: {
           DEFAULT: "hsl(var(--destructive))",
@@ -46,6 +49,19 @@ export default {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        // Assessment-specific colors
+        assessment: {
+          bg: "hsl(var(--assessment-bg))",
+          card: "hsl(var(--assessment-card))",
+          border: "hsl(var(--assessment-border))",
+        },
+        score: {
+          excellent: "hsl(var(--score-excellent))",
+          good: "hsl(var(--score-good))",
+          moderate: "hsl(var(--score-moderate))",
+          developing: "hsl(var(--score-developing))",
+          low: "hsl(var(--score-low))",
         },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
